@@ -1,0 +1,37 @@
+
+
+.editor{
+  box-shadow: 2px 2px 1px 1px rgba(107, 106, 106, 0.2); 
+}
+.textarea{
+    width: 100%;
+    height: 100%;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: none;
+    background-color: aliceblue;
+    outline: none !important;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+.main{
+   height:calc(100% - 37px);
+}
+.maxmin{
+    font-weight: bold;
+}
+.btn-icon{
+    background-color: transparent;
+    border: none; 
+    cursor: pointer;  
+}
+#editor-container{
+    display:block;
+}
